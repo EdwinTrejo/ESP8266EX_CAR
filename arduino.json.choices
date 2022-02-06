@@ -1,0 +1,26 @@
+ * UdpClientSend
+{
+    "configuration": "xtal=80,vt=flash,exception=disabled,stacksmash=disabled,ssl=all,mmu=3232,non32xfer=fast,ResetMethod=nodemcu,CrystalFreq=26,FlashFreq=40,FlashMode=dio,eesz=1M64,led=2,sdk=nonosdk_190703,ip=lm2f,dbg=Disabled,lvl=None____,wipe=none,baud=115200",
+    "board": "esp8266:esp8266:generic",
+    "sketch": "UdpClientSend\\UdpClientSend.ino",
+    "output": "UdpClientSend\\ArduinoOutput",
+    "port": "COM3"
+}
+
+ * TwoMotors
+{
+    "configuration": "cpu=atmega328",
+    "board": "arduino:avr:nano",
+    "sketch": "TwoMotors\\TwoMotors.ino",
+    "output": "TwoMotors\\ArduinoOutput",
+    "port": "COM3"
+}
+
+ * ApUdpClient
+{
+    "configuration": "xtal=80,vt=flash,exception=disabled,stacksmash=disabled,ssl=all,mmu=3232,non32xfer=fast,ResetMethod=nodemcu,CrystalFreq=26,FlashFreq=40,FlashMode=dio,eesz=1M64,led=2,sdk=nonosdk_190703,ip=lm2f,dbg=Disabled,lvl=None____,wipe=none,baud=115200",
+    "board": "esp8266:esp8266:generic",
+    "sketch": "ApUdpClient\\ApUdpClient.ino",
+    "output": "ApUdpClient\\ArduinoOutput",
+    "port": "COM3"
+}
